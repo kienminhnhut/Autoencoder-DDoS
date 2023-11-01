@@ -213,7 +213,7 @@ reconstructionError = sum((X_train - reconstructedData').^2, 2); % Mean squared 
 
 % Visualize the reconstruction error (histogram)
 figure;
-hist(reconstructionError, 50);
+hist(reconstructionError, 83071);
 xlabel('Reconstruction Error');
 ylabel('Frequency');
 title('Reconstruction Error Distribution');
